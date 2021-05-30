@@ -1,6 +1,6 @@
 FROM php:7.4-apache
 
-MAINTAINER Rafael Corrêa Gomes <rafaelcgstz@gmail.com>
+MAINTAINER Jeremie Villalon <villalon.jeremie@gmail.com>
 
 ENV XDEBUG_PORT 9000
 
