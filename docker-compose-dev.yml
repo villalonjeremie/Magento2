@@ -2,7 +2,7 @@ version: "2"
 services:
   apache:
     volumes:
-      - DockerMagento2-sync:/var/www/html:nocopy
+      - <project_name>-sync:/var/www/html:nocopy
 volumes:
-  DockerMagento2-sync:
+  <project_name>-sync:
     external: true
