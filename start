@@ -3,9 +3,7 @@ docker-sync start && \
 docker-compose up -d && \
 version=$(git describe --tags $(git rev-list --tags --max-count=1))
 echo "
-===================== 🚀 Done 🚀 ===================
-
-      Created by Rafael Corrêa Gomes
+===================== 🚀 Done 🚀 ===================s
       v.$version
       Access your new links:
 
@@ -14,4 +12,3 @@ echo "
       ✉️ Local emails: http://localhost:8025
 
 ===================== 🚀 Done 🚀 ==================="
-
