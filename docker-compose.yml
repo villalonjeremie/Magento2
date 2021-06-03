@@ -23,7 +23,7 @@ services:
       - <project_name>-network
 
   db:
-    image: mariadb
+    image: percona:5.7
     ports:
      - 3300:3306
     environment:
